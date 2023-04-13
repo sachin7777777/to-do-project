@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="topleft"><h1><span class="task">Tasks</span>&nbsp;&nbsp;<span class="list">List</span></h1></div>
+        <div class="topright"><Button id="plusbutton">+</Button><span class="text">Add item</span></div>
+    </div>
+    <div id="popup1">
+        <div class="both">
+            <p class="p">Add new task</p>
+            <input type="text" placeholder="Add new task" id="inp">
+        </div>
+        <div class="buttons"><button id="btn1">Add</button><button id="btn2">Close</button></div>
+    </div>
+    <div id="card"></div>
+
+    <!-- <div class="popup2">
+        <p class="p2">Go to Dubai</p>
+        <hr>
+        <div class="container2">
+            <Button id="plusbutton">D</Button><Button id="plusbutton">+</Button>
+        </div>
+    </div> -->
+
+    <div class="popup3" id="popup3">
+        <div class="both">
+            <p class="p">Add new item in task</p>
+            <input type="text" placeholder="Add new task" class="inp2" id="inp2">
+        </div>
+        <div class="buttons">
+            <button class="addtask" id="addtask" onclick="addcontenttopopup2()">Add</button>
+            <button class="closetask" onclick="removethirdpopup()">Close</button></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

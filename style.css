@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* align-items: ; */
+}
+
+.task{
+    color: burlywood;
+    font-weight: bolder;
+    font-size: larger;
+}
+.list{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+#plusbutton{
+    background-color: rgb(233, 139, 16);
+    border-radius: 50%;
+    border: 2px solid rgb(7, 164, 226);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 4px;
+}
+.text{
+    font-weight: bolder;
+    font-size: x-large;
+    color: white;
+}
+#popup1{
+    height: 200px;
+    width: 400px;
+    background-color: antiquewhite;
+    border-radius: 4%;
+    /* margin: auto;
+    margin-top: 30px; */
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+/* .mystyle{
+    display: block;
+    background-color: cadetblue;
+} */
+.both{
+    margin-top: 10px;
+}
+p{
+    color: brown;
+    font-size: x-large;
+    /* margin-top: 50px; */
+    margin-left: 125px;
+}
+#inp{
+    height: 35px;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+#btn1{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+    margin: 2px;
+}
+#btn2{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+}
+.buttons{
+    margin-top: 31px;
+    margin-left: 85px;
+    
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.popup2{
+    width: 200px;
+    height: 340px;
+    background-color: white;
+    border-radius: 4%;
+    /* display: none; */
+}
+.p2{
+    margin-left: 50px;
+}
+.container2{
+    position: absolute;
+    top: 360px;
+}
+/* .Container2{
+    position: relative;
+   top: 150px;
+   left: 70px;
+} */
+.delete{
+    background-color: rgb(172, 196, 37);
+    border-radius: 50%;
+    border: 2px solid rgb(50, 186, 239);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.add{
+    background-color: rgb(50, 186, 239);
+    border-radius: 50%;
+    border: 2px solid rgb(50, 186, 239);
+    color: white;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.popup3{
+    height: 200px;
+    width: 400px;
+    background-color: cadetblue;
+    border-radius: 4%;
+    /* margin: auto;
+    margin-top: 30px; */
+    display: none;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+}
+.addtask{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+}
+.closetask{
+    height: 50px;
+    width: 100px;
+    border-radius: 20%;
+    color: blue;
+    font-size: large;
+}
+.inp2{
+    height: 35px;
+    border-radius: 3px;
+    width: -webkit-fill-available;
+    text-align: center;
+}
+
+.checked{
+    text-decoration: line-through;
+    color: red;
+}
+.content{
+    font-size: 30px;
+    color: orange;
+    font-weight: bold;
+}
